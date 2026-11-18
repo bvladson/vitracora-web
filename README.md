@@ -60,3 +60,11 @@ O endereço real da VPS foi trocado pelo IP de documentação `203.0.113.10` (RF
 identificadores de GA4, GTM e AdSense que aparecem na documentação são públicos por natureza
 — qualquer visitante os lê no HTML do site. O telefone e o e-mail são os canais públicos de
 atendimento da VSB. Nenhuma credencial foi versionada em nenhum momento.
+
+---
+
+## Autoria
+
+Projeto meu — concepção, arquitetura, implementação, implantação e operação em produção.
+Durante o desenvolvimento usei assistentes de IA (Codex e Claude) como ferramenta de apoio;
+a condução e as decisões técnicas são minhas.
