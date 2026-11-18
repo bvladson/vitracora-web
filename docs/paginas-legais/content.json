@@ -1,0 +1,91 @@
+{
+  "updated": "2026-09-11",
+  "documents": [
+    {
+      "slug": "termos-de-servico",
+      "kind": "terms",
+      "title": "Termos de Serviço",
+      "description": "Condições de uso dos sites, conteúdos e canais digitais da VSB Soluções técnicas.",
+      "intro": "Condições para utilizar nossos sites, consultar informações e solicitar atendimento.",
+      "sections": [
+        {
+          "title": "1. Sobre estes termos",
+          "html": "<p>Estes Termos de Serviço e Uso se aplicam ao site <a href=\"https://vsbseguranca.com.br/\">vsbseguranca.com.br</a>, às páginas públicas de <a href=\"https://cms.vsbseguranca.com.br/\">cms.vsbseguranca.com.br</a> e aos recursos digitais disponibilizados pela VSB Soluções técnicas.</p><p>A VSB atua em elétrica, eletrônica, energia, telecomunicações e segurança eletrônica, com atendimento em Fortaleza e região metropolitana. Os canais oficiais de contato são <a href=\"mailto:contato@vsbseguranca.com.br\">contato@vsbseguranca.com.br</a> e <a href=\"tel:+5585986293430\">(85) 98629-3430</a>.</p>"
+        },
+        {
+          "title": "2. Informações, orçamentos e contratação",
+          "html": "<p>O site apresenta serviços, equipamentos e conteúdo técnico e permite solicitar contato e orçamento. O envio de formulário ou mensagem não representa, por si só, a contratação de um serviço.</p><p>Cada proposta informa o escopo, o valor, o prazo, a validade e as condições aplicáveis. Uma avaliação técnica pode ser necessária antes da proposta definitiva. Alterações de escopo e de condições serão combinadas previamente, respeitadas as ofertas e os direitos previstos na legislação.</p><p>Pagamentos, entregas, garantias e cancelamentos, quando aplicáveis, seguem as condições da contratação e os direitos legalmente assegurados ao consumidor.</p>"
+        },
+        {
+          "title": "3. Uso adequado e conteúdo técnico",
+          "html": "<p>Utilize os canais de forma lícita e forneça informações pertinentes e corretas. Não são permitidos acessos não autorizados, códigos maliciosos, consultas abusivas ou ações que prejudiquem o funcionamento do site ou direitos de terceiros.</p><p>Artigos e orientações têm finalidade informativa. Eles não substituem a avaliação específica de um equipamento ou instalação, especialmente em atividades com eletricidade ou outros riscos técnicos.</p>"
+        },
+        {
+          "title": "4. Marcas e materiais",
+          "html": "<p>Textos, marcas, imagens e outros materiais pertencem à VSB ou aos respectivos titulares. A utilização deve respeitar os direitos autorais, as licenças e as exceções previstas em lei. O acesso ao site não concede autorização geral para reprodução comercial.</p>"
+        },
+        {
+          "title": "5. Recursos e plataformas externas",
+          "html": "<p>Links para WhatsApp, Google, fabricantes e outras plataformas levam a serviços com termos próprios. Consulte essas condições ao utilizar cada recurso.</p><p>A VSB utiliza o Google Reader Revenue Manager para recursos de relacionamento com leitores. A participação em pesquisas, cadastros ou outras interações segue as informações apresentadas no recurso, os termos aplicáveis do Google e a <a href=\"https://cms.vsbseguranca.com.br/politica-de-privacidade/\">Política de Privacidade da VSB</a>. Estes termos não criam uma assinatura paga nem autorizam uma cobrança.</p>"
+        },
+        {
+          "title": "6. Disponibilidade, privacidade e atualizações",
+          "html": "<p>Os canais podem sofrer interrupções para manutenção ou por falhas técnicas. Isso não afasta as responsabilidades e os direitos previstos em lei.</p><p>O tratamento de dados é explicado na <a href=\"https://cms.vsbseguranca.com.br/politica-de-privacidade/\">Política de Privacidade</a>. A mera navegação não equivale a consentimento para finalidades que dependam dessa autorização.</p><p>Estes termos podem ser atualizados para refletir mudanças nos canais e serviços. A versão publicada apresenta sua data de atualização, sem afastar direitos relativos a contratações anteriores.</p>"
+        },
+        {
+          "title": "7. Legislação e contato",
+          "html": "<p>Aplica-se a legislação brasileira, inclusive a proteção de dados pessoais e os direitos do consumidor quando cabíveis. Dúvidas podem ser encaminhadas para <a href=\"mailto:contato@vsbseguranca.com.br\">contato@vsbseguranca.com.br</a> ou pelo telefone <a href=\"tel:+5585986293430\">(85) 98629-3430</a>.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "politica-de-privacidade",
+      "kind": "privacy",
+      "title": "Política de Privacidade",
+      "description": "Como a VSB Soluções técnicas trata dados pessoais e como exercer seus direitos de privacidade.",
+      "intro": "Quais dados utilizamos, para quais finalidades e como você pode exercer suas escolhas.",
+      "sections": [
+        {
+          "title": "1. Responsável e contato",
+          "html": "<p>A VSB Soluções técnicas é responsável pelas decisões sobre o tratamento de dados em seus canais digitais. Esta política abrange <a href=\"https://vsbseguranca.com.br/\">vsbseguranca.com.br</a>, as páginas públicas do CMS e as solicitações de atendimento recebidas por esses canais.</p><p>Para questões de privacidade, entre em contato gratuitamente pelo e-mail <a href=\"mailto:contato@vsbseguranca.com.br\">contato@vsbseguranca.com.br</a> ou telefone <a href=\"tel:+5585986293430\">(85) 98629-3430</a>. Atendimento em Fortaleza — Ceará.</p>"
+        },
+        {
+          "title": "2. Dados utilizados",
+          "html": "<ul><li><strong>Contato e orçamento:</strong> nome, telefone, serviço solicitado, tipo de ambiente, bairro ou cidade, descrição da necessidade e outras informações que você fornecer, como e-mail em uma mensagem.</li><li><strong>Registros técnicos:</strong> endereço IP, data e horário, endereço acessado e informações básicas do navegador, utilizados na operação e segurança da infraestrutura.</li><li><strong>Análise de acesso, com consentimento:</strong> páginas visitadas, interações com o site, canal de origem, parâmetros de campanha e data do registro. Esses dados podem acompanhar o contato para identificar a origem da solicitação.</li></ul><p>Evite inserir informações pessoais sensíveis ou dados de terceiros que não sejam necessários ao atendimento.</p>"
+        },
+        {
+          "title": "3. Finalidades e fundamentos",
+          "html": "<p>Utilizamos os dados para responder solicitações, avaliar necessidades técnicas, elaborar propostas, prestar serviços e manter os canais funcionando com segurança.</p><p>Conforme a finalidade, o tratamento pode se apoiar em procedimentos preliminares e execução de contrato, cumprimento de obrigação legal, exercício regular de direitos ou legítimo interesse para segurança, observados os direitos do titular. A análise opcional de acesso e a atribuição da origem da visita dependem de consentimento. Aplicam-se as hipóteses previstas na <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm\" rel=\"external\">Lei Geral de Proteção de Dados Pessoais — LGPD</a>.</p>"
+        },
+        {
+          "title": "4. Formulário e WhatsApp",
+          "html": "<p>Ao enviar o formulário do site, a solicitação é registrada no sistema de atendimento da VSB antes do encaminhamento ao WhatsApp. Portanto, os dados informados podem permanecer registrados mesmo que você não conclua o envio da mensagem no WhatsApp.</p><p>No WhatsApp, você pode revisar e confirmar a mensagem. Esse serviço é operado por um terceiro e possui sua própria política de privacidade. Os botões de contato direto abrem esse serviço; a abertura de um link não envia, por si só, uma mensagem.</p>"
+        },
+        {
+          "title": "5. Cookies e escolhas",
+          "html": "<p>No site principal, o cookie <code>vsb_cookie_consent_v2</code> lembra sua escolha por até 180 dias. Com sua autorização, o item <code>vsb_attribution</code> guarda a origem da visita no armazenamento local do navegador, até sua limpeza ou a revogação da escolha.</p><p>O Google Tag Manager gerencia a instalação de ferramentas de medição. As permissões de armazenamento para análise começam negadas e são liberadas ao escolher “Aceitar análise”. As permissões para armazenamento e personalização de anúncios permanecem negadas. Mesmo com permissões negadas, ferramentas do Google podem receber sinais técnicos sem cookies de análise, como informações da conexão e do estado de consentimento.</p><p>O botão “Somente necessários” recusa a análise opcional e a atribuição da visita. Para alterar a escolha, utilize “Preferências de cookies” no rodapé do <a href=\"https://vsbseguranca.com.br/\">site principal</a>. Continuar navegando não é interpretado como consentimento. Você também pode gerenciar ou excluir cookies pelas configurações do navegador.</p><p>O painel WordPress pode usar cookies de autenticação para quem faz login. Estas páginas de Termos e Política podem ser consultadas sem login e não carregam formulários de cadastro nem ferramentas de publicidade.</p>"
+        },
+        {
+          "title": "6. Google Reader Revenue Manager",
+          "html": "<p>O site principal carrega o Google Reader Revenue Manager para oferecer recursos de relacionamento com leitores. Esse carregamento estabelece conexão com o Google, que pode receber dados técnicos como endereço IP, informações do navegador e página acessada, independentemente da escolha sobre análise de acesso.</p><p>Se você participar de pesquisas, cadastros ou outras interações, poderão ser tratados os dados informados e compartilhados nessa interação, como e-mail e respostas, conforme as informações e escolhas apresentadas no próprio recurso. Esses dados serão utilizados para a finalidade informada na coleta.</p><p>O Google também trata informações segundo a sua <a href=\"https://policies.google.com/privacy?hl=pt-BR\" rel=\"external\">Política de Privacidade</a>. A simples consulta a esta política não ativa esses recursos nem inscreve você em uma newsletter.</p>"
+        },
+        {
+          "title": "7. Compartilhamento e infraestrutura",
+          "html": "<p>Dados podem ser tratados por fornecedores necessários à hospedagem, armazenamento e comunicação, na medida necessária à operação e ao atendimento. Também podem ser fornecidos quando houver obrigação legal, ordem válida de autoridade ou necessidade de exercício de direitos. Não comercializamos dados pessoais.</p><p>O uso de plataformas externas pode envolver tratamento em outros países. Quando houver transferência internacional sob responsabilidade da VSB, devem ser observadas as hipóteses e garantias exigidas pela legislação brasileira. Consulte também a política da plataforma ao utilizá-la.</p>"
+        },
+        {
+          "title": "8. Armazenamento e proteção",
+          "html": "<p>Os dados são mantidos pelo período necessário ao atendimento, às finalidades informadas, ao cumprimento de obrigações e ao exercício de direitos. Quando não houver fundamento para mantê-los, sua eliminação ou anonimização observará os limites e requisitos legais.</p><p>Utilizamos conexão HTTPS e controles de acesso aos sistemas. Nenhum ambiente conectado à internet é totalmente livre de riscos.</p>"
+        },
+        {
+          "title": "9. Seus direitos",
+          "html": "<p>Você pode solicitar confirmação e acesso aos dados, correção, informações sobre compartilhamento, anonimização, bloqueio ou eliminação quando cabíveis, portabilidade nos limites aplicáveis e revogação de consentimento. Pode também exercer os demais direitos previstos na LGPD, incluindo oposição em caso de tratamento irregular e revisão de decisões exclusivamente automatizadas que afetem seus interesses, quando existentes.</p><p>Envie a solicitação para <a href=\"mailto:contato@vsbseguranca.com.br\">contato@vsbseguranca.com.br</a>. Poderemos solicitar informações proporcionais para confirmar sua identidade e proteger os dados. O atendimento é gratuito, observados os prazos legais. Você também pode recorrer à <a href=\"https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados-1\" rel=\"external\">Autoridade Nacional de Proteção de Dados</a>.</p>"
+        },
+        {
+          "title": "10. Atualizações",
+          "html": "<p>Esta política será atualizada quando necessário para refletir mudanças no tratamento de dados. A data da versão está indicada no início da página. Consulte também os <a href=\"https://cms.vsbseguranca.com.br/termos-de-servico/\">Termos de Serviço</a>.</p>"
+        }
+      ]
+    }
+  ]
+}

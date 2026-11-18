@@ -1,0 +1,13 @@
+.git
+.lovable
+.tanstack
+.workspace
+dist
+.output
+elementor-wordpress
+node_modules
+*.log
+.env
+.env.*
+!.env.example
+.cache

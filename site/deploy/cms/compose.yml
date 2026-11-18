@@ -1,0 +1,80 @@
+services:
+  database:
+    image: mariadb:11.8
+    restart: unless-stopped
+    # A VPS tem 2 vCPU e 8 GB. Os tetos abaixo garantem que uma varredura
+    # contra o WordPress não consuma os dois núcleos e derrube o site Node.
+    cpus: 0.5
+    mem_limit: 1g
+    environment:
+      MARIADB_DATABASE: ${CMS_DB_NAME}
+      MARIADB_USER: ${CMS_DB_USER}
+      MARIADB_PASSWORD: ${CMS_DB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${CMS_DB_ROOT_PASSWORD}
+    volumes:
+      - cms_database:/var/lib/mysql
+    networks:
+      - cms_internal
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  wordpress:
+    image: wordpress:php8.3-apache
+    restart: unless-stopped
+    cpus: 1.0
+    mem_limit: 2g
+    depends_on:
+      database:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8082:80"
+    environment:
+      WORDPRESS_DB_HOST: database:3306
+      WORDPRESS_DB_NAME: ${CMS_DB_NAME}
+      WORDPRESS_DB_USER: ${CMS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${CMS_DB_PASSWORD}
+      # Segredo compartilhado com o site Node para registrar leads.
+      # Precisa bater com VSB_LEADS_TOKEN no .env do site.
+      VSB_LEADS_TOKEN: ${VSB_LEADS_TOKEN}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', 'https://cms.vsbseguranca.com.br');
+        define('WP_SITEURL', 'https://cms.vsbseguranca.com.br');
+        define('DISALLOW_FILE_EDIT', true);
+        define('WP_AUTO_UPDATE_CORE', 'minor');
+        define('FORCE_SSL_ADMIN', true);
+        if (isset($$_SERVER['HTTP_X_FORWARDED_PROTO']) && $$_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
+          $$_SERVER['HTTPS'] = 'on';
+        }
+    volumes:
+      - cms_wordpress:/var/www/html
+      - ./vsb-content.php:/var/www/html/wp-content/mu-plugins/vsb-content.php:ro
+    networks:
+      - cms_internal
+
+  cli:
+    image: wordpress:cli-php8.3
+    profiles: ["tools"]
+    depends_on:
+      database:
+        condition: service_healthy
+    environment:
+      WORDPRESS_DB_HOST: database:3306
+      WORDPRESS_DB_NAME: ${CMS_DB_NAME}
+      WORDPRESS_DB_USER: ${CMS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${CMS_DB_PASSWORD}
+    volumes:
+      - cms_wordpress:/var/www/html
+      - ./vsb-content.php:/var/www/html/wp-content/mu-plugins/vsb-content.php:ro
+    networks:
+      - cms_internal
+
+volumes:
+  cms_database:
+  cms_wordpress:
+
+networks:
+  cms_internal:
+    driver: bridge
