@@ -1,4 +1,11 @@
-# VSB Soluções Técnicas — site institucional
+# VITRACORA
+
+**Digital Experience Platform**
+
+> Arquitetura de experiência digital: site institucional, CMS headless e captação de leads.
+>
+> **A Vladson Labs Project** · Developed by Vladson Bezerra
+> Participação autoral: Desenvolvimento original. O WordPress, usado como CMS, é de terceiros.
 
 Site institucional da VSB (vsbseguranca.com.br): identidade visual, conteúdo gerenciável,
 captação de leads, catálogo de produtos e serviços, páginas legais e hub de vídeos.
