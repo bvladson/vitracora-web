@@ -1,4 +1,4 @@
-# VITRACORA
+# VITRACORA CMS
 
 **Digital Experience Platform**
 
